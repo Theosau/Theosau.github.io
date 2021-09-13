@@ -1,15 +1,10 @@
 ---
-title: "Paper Title Number 3"
+title: "HySTER: A Hybrid Spatio-Temporal Event Reasoner"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/hyster-aaai
+excerpt: 'This paper presents a novel neuro-symbolic appraoch to video question answering, performing perception tasks with deep learning and temporal and causal reasoning with inductive logic programming. You can find more information on the porject at '
+date: 2021-01-17
+venue: 'Thirty- Fifth AAAI Conference on Artificial Intelligence Workshop on Hybrid Artificial Intelligence'
+paperurl: 'https://arxiv.org/pdf/2101.06644.pdf'
+citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER: A Hybrid Spatio-Temporal Event Reasoner, Thirty- Fifth AAAI Conference on Artificial Intelligence Workshop on Hybrid Artificial Intelligence.'
 ---
-This paper is about the number 3. The number 4 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).

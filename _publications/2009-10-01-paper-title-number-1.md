@@ -1,15 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "Data augmentation and pre-trained networks for extremely low data regimes unsupervised visual inspection"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/spie-scortex
+excerpt: 'This paper studies the robustness of using deep features from pre-trained networks on low data regoimes anomaly detection tasks.'
+date: 2021-06-20
+venue: 'SPIE Optical Metrology. Proceedings Volume 11787, Automated Visual Inspection and Machine Vision IV'
+paperurl: 'https://arxiv.org/pdf/2106.01277.pdf'
+citation: 'Pierre Gutierrez, Antoine Cordier, Thaïs Caldeira, Theophile Sautory (2021): Data augmentation and pre-trained networks for extremely low data regimes unsupervised visual inspection, Proc. SPIE 11787, Automated Visual Inspection and Machine Vision IV, 1178703, DOI: 10.1117/12.2591876.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).

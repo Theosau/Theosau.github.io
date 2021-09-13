@@ -1,15 +1,11 @@
 ---
-title: "Paper Title Number 2"
+title: "A Priori Sub-grid Modelling Using Artificial Neural Networks"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/turbulence_ijcfd
+excerpt: 'This paper concerns the use of artificial neural networks to close the turbulence model in Large Eddy Simulations.'
+date: 2020-06-18
+venue: 'International Journal of Computational Fluid Dynamics'
+paperurl: 'https://www.tandfonline.com/doi/abs/10.1080/10618562.2020.1789116?journalCode=gcfd20'
+citation: 'Alvaro Prat, Theophile Sautory & S. Navarro-Martinez (2020): A Priori Sub-grid Modelling Using Artificial Neural Networks, International Journal of Computational Fluid Dynamics, DOI: 10.1080/10618562.2020.1789116.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
