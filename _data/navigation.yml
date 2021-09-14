@@ -7,8 +7,8 @@ main:
     url: /portfolio/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching.html    
     
   - title: "Resume"
-    url: /resume/
+    url: /resume.html
 
