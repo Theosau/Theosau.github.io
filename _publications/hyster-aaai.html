@@ -8,11 +8,28 @@ venue: 'Thirty- Fifth AAAI Conference on Artificial Intelligence Workshop on Hyb
 paperurl: 'https://arxiv.org/pdf/2101.06644.pdf'
 citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER: A Hybrid Spatio-Temporal Event Reasoner, Thirty- Fifth AAAI Conference on Artificial Intelligence Workshop on Hybrid Artificial Intelligence.'
 ---
+<style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+ }
+ 
+ p.blocktext {
+     margin-left: auto;
+     margin-right: auto;
+     width: 75%;
+     justify-content: center;
+     font-size: 0.9em;
+     line-height: 1.1em;
+ }
+</style>
+
 
 <body>
   <div class="blurb">
     <h1>Neuro-Symbolic Video Question Answering</h1>
-    <br>
       <p align="justify">
         During my MSc in AI and ML at Imperial College London, I explored
         the task of video understanding through the proxy task of Video Question
@@ -56,8 +73,7 @@ citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER
         in the scene. The symbolic component, implemented under the form of Answer
         Set Programming (ASP) using clingo, then performs temporal and causal reasoning
         over the reconstructed scene, detecting the events occurring and answering
-        the questions. <br>
-        <br>
+        the questions.
       </p>
 
     <h2> <u> Methodology </u> </h2>
@@ -65,20 +81,17 @@ citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER
       An overview of the overall framework is presented in the following figure, and comprises
       three main components.
     </p>
-    <br>
 
-    <div style="font-size:1.2em">
+    <div>
         <ol style="list-style-type:upper-roman">
           <li>
             <b> Video Parser:</b> detects, classifies and localises the objects in the scene.
             This infromation is then translated into a symbolic representation.
           </li>
-          <br>
           <li>
             <b> Question Parser: </b> translates the natural language questions into
             logic queries.
           </li>
-          <br>
           <li>
             <b> Symbolic Reasoner: </b> detects events from the abstract
             scene representation built by the <b> Video Parser</b>, and reasons over them
@@ -86,9 +99,8 @@ citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER
           </li>
         </ol>
     </div>
-    <br>
     <p>
-      <img src="/images/ns_vqa/architecture.png" class="center7">
+      <img src="/images/ns_vqa/architecture.png" class="center">
     </p>
     <p class="blocktext" align="justify">
           Overview of the model architecture composed of 3 main components: <b>I</b>.
@@ -97,10 +109,7 @@ citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER
           The green shaded parts refer to task specific symbolic components and
           information.
     </p>
-    <br>
-    <p align="justify">
-    </p>
-    <br>
+
     <h2> <u> Results </u> </h2>
     <p>
       Find the results on the <a href="https://evalai.cloudcv.org/web/challenges/challenge-page/667/leaderboard/1813" target="_blank">
@@ -112,10 +121,10 @@ citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER
       score, not the best performance in each question type, hence the difference
       with the values in our paper).
     </p>
-    <br>
     <h2> <u> Next Steps </u> </h2>
     <p align="justify">
-    We aim to explore the potential of using inductive logic programming and
+    In the <a href="http://wp.doc.ic.ac.uk/spike/" target="_blank">SPIKE</a> research group, 
+    we aim to explore the potential of using inductive logic programming and
     <a href="http://ilasp.com/?no_animation" target="_blank"><img src="../images/logos/ilasp.png"width=30></a>
     to reduce the amount of the human engineering in the process, allowing the model to learn event detection
     rules directly from abstract scene representations and question-answer pairs.
@@ -123,5 +132,4 @@ citation: 'Theophile Sautory, Nuri Cingillioglu, Alessandra Russo (2021): HySTER
     for details concerning our symbolic rule learning methodology and initial results.
     </p>
   </div>
-  <br>
 </body>
