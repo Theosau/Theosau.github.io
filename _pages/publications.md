@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: false
 ---
 
-<p>I came to AI through physical systems like fluids and thermal dynamics, focused on understanding and modeling how things behave. Since then, each step has been about building the tools and perspective needed to apply AI more effectively to physical systems and scientific problems.</p>
+<p>My research is driven by an interest in AI for science—using learning systems to model, understand, and reason about real-world phenomena. The papers below are grouped into three sections that each contribute to that goal: direct work on physical systems, approaches that emphasize structure and reasoning, and methods focused on robustness, feedback, and reliability. Together, they reflect how I think about building AI systems that are both scientifically grounded and practically useful.</p>
 
 <h2>AI for Physical Systems &amp; Scientific Understanding</h2>
 <p>This work focuses on using machine learning to model, reconstruct, and reason about physical phenomena, particularly in fluid dynamics and flow-related systems.</p>
