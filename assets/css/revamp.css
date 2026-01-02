@@ -73,6 +73,7 @@ img {
 }
 
 .greedy-nav a {
+  font-family: var(--font-sans);
   font-weight: 500;
 }
 
