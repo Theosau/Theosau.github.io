@@ -1,12 +1,7 @@
 # main links
 main:
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Home"
+    url: /
 
   - title: "Publications"
-    url: /publications/ 
-
-  - title: "Teaching"
-    url: /teaching.html    
-
-
+    url: /publications/

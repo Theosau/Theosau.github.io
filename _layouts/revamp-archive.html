@@ -12,20 +12,22 @@ layout: compress
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
+    <main class="revamp">
+      <div class="archive">
+        <h1 class="page__title">{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </main>
 
     <div class="page__footer">
       <footer class="footer">
-        {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>

@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Théophile Sautory"
 title_separator          : "-"
 name                     : &name "Théophile Sautory"
-description              : &description "personal description"
+description              : &description "Machine learning engineer focused on evaluation, robustness, and real-world deployment."
 url                      : https://Theosau.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Theosau/Theosau.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Théophile Sautory"
   avatar           : "profile.png"
-  bio              : "Engineer at Arup"
+  bio              : "Machine Learning Engineer at OpenAI"
   location         : "San Francisco, California, USA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

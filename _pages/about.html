@@ -1,39 +1,51 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: "Théophile Sautory"
+excerpt: "Machine learning engineer focused on evaluation, robustness, and real-world deployment."
+layout: revamp
+author_profile: false
 ---
 
-<p align="justify">
-  I am a Research Engineer at <a href="https://www.arup.com/Arup" target="_blank">Arup</a>, where I work on machine learning and mechanical engineering project pipelines. 
-  My journey through mechanical engineering and computer science has taught me a lot about the power of combining these fields to solve real-world problems. It's about making software 
-  that not only thinks but also understands the physical world it operates in by leveraging multimodal data sources. This approach, guided by first principles reasoning, has been at the heart of my projects.
-  <!-- I  have 5+ years 
-  of demonstrated experience in programming, building ML, deep learning, and symbolic AI models for various
-  applications such as computer vision, physical modeling and behavioural understanding (in criminology). I love challenging 
-  projects which require building innovative and creative solutions, to positively impact society. -->
-</p>
+<section class="hero">
+  <div>
+    <h1 class="hero__title">Applied AI for understanding and building real-world systems</h1>
+    <p class="hero__lede">I came to AI through physical systems like fluids and thermal dynamics, focused on understanding and modeling how things behave. Since then, each step has been about building the tools and perspective needed to apply AI more effectively to physical systems and scientific problems.</p>
+    <p class="hero__lede">Along the way, I've also spent time working with founders and early teams — helping startups turn new ideas into working systems across domains like coding, mechanical engineering, healthcare, gpu kernel optimization, and voice AI. I enjoy being close to the point where ideas become products, and where technical choices matter early.</p>
+  </div>
+</section>
 
-<!-- <p align="justify">
-  I recieved an BEng in Mechanical Engineering and an MSc in Computer Science (AI
-  and ML) from Imperial College London, and an MS in Mechanical Engineering from UC Berkeley. During these, I had the chance 
-  of collaborating with researchers such as
-  <a href="https://me.berkeley.edu/people/shawn-shadden/" target="_blank">Shawn C. Shadden</a>.
-  <a href="https://www.imperial.ac.uk/people/s.navarro" target="_blank">Salvador Navarro-Martinez</a>, 
-  <a href="http://wp.doc.ic.ac.uk/arusso/" target="_blank">Alessandra Russo</a>, and 
-  <a href="http://www.doc.ic.ac.uk/~da04/" target="_blank">Dalal Alrajeh</a>.
-</p>
+<section class="section" id="work">
+  <h2 class="section__title">Applied AI across domains</h2>
+  <p class="section__lede">I work at the intersection of applied AI, complex systems, and fast-moving product environments, with a focus on turning frontier models into reliable, production-ready tools.</p>
+  <div class="grid grid-3">
+    <div class="card">
+      <h3><a href="https://www.arup.com/" target="_blank" rel="noopener">Arup</a> — engineering & sustainability</h3>
+      <p>Thermal, energy, and microclimate systems, modeled with CAD, CFD, and machine learning, where models must be grounded in physical laws, explicit constraints, and verifiable assumptions.</p>
+    </div>
+    <div class="card">
+      <h3><a href="https://www.neuralconcept.com/" target="_blank" rel="noopener">Neural Concept</a> — 3D geometric AI</h3>
+      <p>Built the foundations for agentic and human-feedback-driven workflows, enabling aerospace, automotive and consumer products teams to explore and accelerate design using 3D geometric AI.</p>
+    </div>
+    <div class="card">
+      <h3><a href="https://openai.com/" target="_blank" rel="noopener">OpenAI</a> — applied RL & evaluation</h3>
+      <p>Led applied work on agent reinforcement fine-tuning and model evaluation, focused on reward modelling, graders, feedback, decomposition, and failure modes to improve agentic behavior over time.</p>
+    </div>
+  </div>
+  <p class="section__lede">Across roles, my work has centered on the same challenge: building learning systems that move fast without losing alignment with first principles, and helping teams — especially early-stage ones — make sound technical decisions as ideas scale into products.</p>
+</section>
 
-<p align="justify">
-  In the summer 2022, I worked in <a href="https://www.ansys.com/" target="_blank">Ansys'</a> San Jose CTO team on a 
-  new generation of PDE numerical solvers powered by physics informred ML. Previously, I gained industrial experience in 
-  different tech-focused start-ups: I applied ML to supply chain challenges at 
-  <a href="https://www.vekia.fr/en/homepage/" target="_blank">Vekia</a>, and to quality control
-  and anomaly detection on images at <a href="https://scortex.io/" target="_blank">Scortex</a> (which has been aqcuired by
-  <a href="https://www.trigo-group.com/en" target="_blank">Trigo</a> group).
-</p> -->
-
+<section class="section" id="contact">
+  <div class="contact-panel">
+    <div>
+      <h2 class="section__title">Let's connect</h2>
+      <p>Open to AI-for-science collaborations, physical modeling projects, and applied evaluation work.</p>
+    </div>
+    <div>
+      <a class="contact-pill" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener"><i data-lucide="linkedin"></i> LinkedIn</a>
+      <a class="contact-pill" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i data-lucide="github"></i> GitHub</a>
+      {% if site.author.googlescholar %}
+        <a class="contact-pill" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><i data-lucide="graduation-cap"></i> Scholar</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

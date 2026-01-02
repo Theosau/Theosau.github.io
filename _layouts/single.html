@@ -43,11 +43,7 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: <i>{{ page.citation }}</i> <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: <i>{{ page.citation }}</i> </p>
-        {% endif %}
+        {% comment %}Recommended citation removed site-wide per request{% endcomment %}
     
         </header>
       {% endunless %}
